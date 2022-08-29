@@ -332,7 +332,7 @@ function Dashboard() {
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                     <i class="bi bi-basket2-fill p-2 rounded-circle alert-warning"></i>
-                                       Số order</div>
+                                       Số đơn hàng</div>
                                     <div class="h5 mb-0 font-weight-bold text-gray-800">
                                         {orders?.length}
                                     </div>

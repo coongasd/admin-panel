@@ -29,9 +29,9 @@ function Order() {
         <div className='container'>
             <section class="content-main">
                 <div class="content-header ">
-                    <h2 class="content-title">Orders</h2>
+                    <h2 class="content-title">Đơn hàng</h2>
                 </div>
-                <div class="card mb-4 shadow-sm ml-5">
+                <div style={{marginLeft :  5 + "rem"}} class="card mb-4 shadow-sm">
                     <header class="card-header bg-white">
                         <div class="row gx-3 py-3">
                             <div class="col-lg-4 col-md-6 me-auto">
@@ -59,14 +59,14 @@ function Order() {
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Tên sản phẩm</th>
+                                        <th scope="col">Sản phẩm</th>
                                         <th scope="col">Số lượng</th>
-                                        <th scope="col">Tên người mua</th>
+                                        <th scope="col">Tên</th>
                                         <th scope="col">Email</th>
                                         <th scope="col">Tổng tiền</th>
-                                        <th scope="col">Tình trạng đơn hàng</th>
-                                        <th scope="col">Ngày tạo đơn hàng</th>
-                                        <th>Trạng thái</th>
+                                        <th scope="col">Tình trạng</th>
+                                        <th scope="col">Ngày tạo</th>
+                                        <th scope="col">Trạng thái</th>
                                         <th scope="col" class="text-end">Action</th>
                                     </tr>
                                 </thead>

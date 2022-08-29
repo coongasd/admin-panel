@@ -35,7 +35,7 @@ function MainContent() {
             <div className="" id="product-detail">
               <img className="w-50" src={product.img}/>
               <p className="">{product.name}</p>
-              <p className="">{product.price}</p>
+              <p className="">{product.price.toLocaleString() + ' vnđ'}</p>
           
               <div className="row">
                 <a className="btn btn-sm btn-outline-success p-2 pb-3 col-md-6" href={`product/edit/${product._id}`}>
