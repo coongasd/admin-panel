@@ -8,7 +8,7 @@ export const listOrder = () => async(dispatch) => {
     try {
         dispatch({type: ORDER_LIST_REQUEST})
         
-        const{data} = await axios.get(`http://localhost:5000/api/orders/all`);
+        const{data} = await axios.get(`https://job-search-server.onrender.com/api/orders/all`);
         dispatch({ type:ORDER_LIST_SUCCESS, payload: data });
         
     } catch (error) {
@@ -25,7 +25,7 @@ export const detailOrder = (id) => async(dispatch) => {
     try {
         dispatch({type: ORDER_DETAIL_REQUEST})
         
-        const{data} = await axios.get(`http://localhost:5000/api/orders/${id}`);
+        const{data} = await axios.get(`https://job-search-server.onrender.com/api/orders/${id}`);
         dispatch({ type:ORDER_DETAIL_SUCCESS, payload: data });
         
     } catch (error) {
